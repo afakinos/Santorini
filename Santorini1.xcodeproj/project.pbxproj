@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD4DE1F71756A1150094A5D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4DE1F61756A1150094A5D1 /* UIKit.framework */; };
+		BD4DE1F91756A1150094A5D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4DE1F81756A1150094A5D1 /* Foundation.framework */; };
+		BD4DE1FB1756A1150094A5D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4DE1FA1756A1150094A5D1 /* CoreGraphics.framework */; };
+		BD4DE2011756A1150094A5D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD4DE1FF1756A1150094A5D1 /* InfoPlist.strings */; };
+		BD4DE2031756A1150094A5D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4DE2021756A1150094A5D1 /* main.m */; };
+		BD4DE2071756A1150094A5D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4DE2061756A1150094A5D1 /* AppDelegate.m */; };
+		BD4DE2091756A1150094A5D1 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = BD4DE2081756A1150094A5D1 /* Default.png */; };
+		BD4DE20B1756A1150094A5D1 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD4DE20A1756A1150094A5D1 /* Default@2x.png */; };
+		BD4DE20D1756A1150094A5D1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD4DE20C1756A1150094A5D1 /* Default-568h@2x.png */; };
+		BD4DE2101756A1160094A5D1 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4DE20E1756A1160094A5D1 /* MainStoryboard_iPhone.storyboard */; };
+		BD4DE2131756A1160094A5D1 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4DE2111756A1160094A5D1 /* MainStoryboard_iPad.storyboard */; };
+		BD4DE2161756A1160094A5D1 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4DE2151756A1160094A5D1 /* MasterViewController.m */; };
+		BD4DE2191756A1160094A5D1 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4DE2181756A1160094A5D1 /* DetailViewController.m */; };
+		BD4DE2211756A1160094A5D1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4DE2201756A1160094A5D1 /* SenTestingKit.framework */; };
+		BD4DE2221756A1160094A5D1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4DE1F61756A1150094A5D1 /* UIKit.framework */; };
+		BD4DE2231756A1160094A5D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD4DE1F81756A1150094A5D1 /* Foundation.framework */; };
+		BD4DE22B1756A1160094A5D1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD4DE2291756A1160094A5D1 /* InfoPlist.strings */; };
+		BD4DE22E1756A1160094A5D1 /* Santorini1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4DE22D1756A1160094A5D1 /* Santorini1Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD4DE2241756A1160094A5D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD4DE1EB1756A1150094A5D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD4DE1F21756A1150094A5D1;
+			remoteInfo = Santorini1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD4DE1F31756A1150094A5D1 /* Santorini1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Santorini1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4DE1F61756A1150094A5D1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD4DE1F81756A1150094A5D1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD4DE1FA1756A1150094A5D1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD4DE1FE1756A1150094A5D1 /* Santorini1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Santorini1-Info.plist"; sourceTree = "<group>"; };
+		BD4DE2001756A1150094A5D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD4DE2021756A1150094A5D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD4DE2041756A1150094A5D1 /* Santorini1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Santorini1-Prefix.pch"; sourceTree = "<group>"; };
+		BD4DE2051756A1150094A5D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD4DE2061756A1150094A5D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD4DE2081756A1150094A5D1 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		BD4DE20A1756A1150094A5D1 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		BD4DE20C1756A1150094A5D1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BD4DE20F1756A1160094A5D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		BD4DE2121756A1160094A5D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		BD4DE2141756A1160094A5D1 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		BD4DE2151756A1160094A5D1 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		BD4DE2171756A1160094A5D1 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		BD4DE2181756A1160094A5D1 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		BD4DE21F1756A1160094A5D1 /* Santorini1Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Santorini1Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4DE2201756A1160094A5D1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		BD4DE2281756A1160094A5D1 /* Santorini1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Santorini1Tests-Info.plist"; sourceTree = "<group>"; };
+		BD4DE22A1756A1160094A5D1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD4DE22C1756A1160094A5D1 /* Santorini1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Santorini1Tests.h; sourceTree = "<group>"; };
+		BD4DE22D1756A1160094A5D1 /* Santorini1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Santorini1Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD4DE1F01756A1150094A5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4DE1F71756A1150094A5D1 /* UIKit.framework in Frameworks */,
+				BD4DE1F91756A1150094A5D1 /* Foundation.framework in Frameworks */,
+				BD4DE1FB1756A1150094A5D1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4DE21B1756A1160094A5D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4DE2211756A1160094A5D1 /* SenTestingKit.framework in Frameworks */,
+				BD4DE2221756A1160094A5D1 /* UIKit.framework in Frameworks */,
+				BD4DE2231756A1160094A5D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD4DE1EA1756A1150094A5D1 = {
+			isa = PBXGroup;
+			children = (
+				BD4DE1FC1756A1150094A5D1 /* Santorini1 */,
+				BD4DE2261756A1160094A5D1 /* Santorini1Tests */,
+				BD4DE1F51756A1150094A5D1 /* Frameworks */,
+				BD4DE1F41756A1150094A5D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD4DE1F41756A1150094A5D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD4DE1F31756A1150094A5D1 /* Santorini1.app */,
+				BD4DE21F1756A1160094A5D1 /* Santorini1Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD4DE1F51756A1150094A5D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD4DE1F61756A1150094A5D1 /* UIKit.framework */,
+				BD4DE1F81756A1150094A5D1 /* Foundation.framework */,
+				BD4DE1FA1756A1150094A5D1 /* CoreGraphics.framework */,
+				BD4DE2201756A1160094A5D1 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD4DE1FC1756A1150094A5D1 /* Santorini1 */ = {
+			isa = PBXGroup;
+			children = (
+				BD4DE2051756A1150094A5D1 /* AppDelegate.h */,
+				BD4DE2061756A1150094A5D1 /* AppDelegate.m */,
+				BD4DE20E1756A1160094A5D1 /* MainStoryboard_iPhone.storyboard */,
+				BD4DE2111756A1160094A5D1 /* MainStoryboard_iPad.storyboard */,
+				BD4DE2141756A1160094A5D1 /* MasterViewController.h */,
+				BD4DE2151756A1160094A5D1 /* MasterViewController.m */,
+				BD4DE2171756A1160094A5D1 /* DetailViewController.h */,
+				BD4DE2181756A1160094A5D1 /* DetailViewController.m */,
+				BD4DE1FD1756A1150094A5D1 /* Supporting Files */,
+			);
+			path = Santorini1;
+			sourceTree = "<group>";
+		};
+		BD4DE1FD1756A1150094A5D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD4DE1FE1756A1150094A5D1 /* Santorini1-Info.plist */,
+				BD4DE1FF1756A1150094A5D1 /* InfoPlist.strings */,
+				BD4DE2021756A1150094A5D1 /* main.m */,
+				BD4DE2041756A1150094A5D1 /* Santorini1-Prefix.pch */,
+				BD4DE2081756A1150094A5D1 /* Default.png */,
+				BD4DE20A1756A1150094A5D1 /* Default@2x.png */,
+				BD4DE20C1756A1150094A5D1 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD4DE2261756A1160094A5D1 /* Santorini1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BD4DE22C1756A1160094A5D1 /* Santorini1Tests.h */,
+				BD4DE22D1756A1160094A5D1 /* Santorini1Tests.m */,
+				BD4DE2271756A1160094A5D1 /* Supporting Files */,
+			);
+			path = Santorini1Tests;
+			sourceTree = "<group>";
+		};
+		BD4DE2271756A1160094A5D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD4DE2281756A1160094A5D1 /* Santorini1Tests-Info.plist */,
+				BD4DE2291756A1160094A5D1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD4DE1F21756A1150094A5D1 /* Santorini1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4DE2311756A1160094A5D1 /* Build configuration list for PBXNativeTarget "Santorini1" */;
+			buildPhases = (
+				BD4DE1EF1756A1150094A5D1 /* Sources */,
+				BD4DE1F01756A1150094A5D1 /* Frameworks */,
+				BD4DE1F11756A1150094A5D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Santorini1;
+			productName = Santorini1;
+			productReference = BD4DE1F31756A1150094A5D1 /* Santorini1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD4DE21E1756A1160094A5D1 /* Santorini1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4DE2341756A1160094A5D1 /* Build configuration list for PBXNativeTarget "Santorini1Tests" */;
+			buildPhases = (
+				BD4DE21A1756A1160094A5D1 /* Sources */,
+				BD4DE21B1756A1160094A5D1 /* Frameworks */,
+				BD4DE21C1756A1160094A5D1 /* Resources */,
+				BD4DE21D1756A1160094A5D1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD4DE2251756A1160094A5D1 /* PBXTargetDependency */,
+			);
+			name = Santorini1Tests;
+			productName = Santorini1Tests;
+			productReference = BD4DE21F1756A1160094A5D1 /* Santorini1Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD4DE1EB1756A1150094A5D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Musicmaster;
+			};
+			buildConfigurationList = BD4DE1EE1756A1150094A5D1 /* Build configuration list for PBXProject "Santorini1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD4DE1EA1756A1150094A5D1;
+			productRefGroup = BD4DE1F41756A1150094A5D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD4DE1F21756A1150094A5D1 /* Santorini1 */,
+				BD4DE21E1756A1160094A5D1 /* Santorini1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD4DE1F11756A1150094A5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4DE2011756A1150094A5D1 /* InfoPlist.strings in Resources */,
+				BD4DE2091756A1150094A5D1 /* Default.png in Resources */,
+				BD4DE20B1756A1150094A5D1 /* Default@2x.png in Resources */,
+				BD4DE20D1756A1150094A5D1 /* Default-568h@2x.png in Resources */,
+				BD4DE2101756A1160094A5D1 /* MainStoryboard_iPhone.storyboard in Resources */,
+				BD4DE2131756A1160094A5D1 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4DE21C1756A1160094A5D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4DE22B1756A1160094A5D1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BD4DE21D1756A1160094A5D1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD4DE1EF1756A1150094A5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4DE2031756A1150094A5D1 /* main.m in Sources */,
+				BD4DE2071756A1150094A5D1 /* AppDelegate.m in Sources */,
+				BD4DE2161756A1160094A5D1 /* MasterViewController.m in Sources */,
+				BD4DE2191756A1160094A5D1 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD4DE21A1756A1160094A5D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4DE22E1756A1160094A5D1 /* Santorini1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD4DE2251756A1160094A5D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD4DE1F21756A1150094A5D1 /* Santorini1 */;
+			targetProxy = BD4DE2241756A1160094A5D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD4DE1FF1756A1150094A5D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4DE2001756A1150094A5D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD4DE20E1756A1160094A5D1 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4DE20F1756A1160094A5D1 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		BD4DE2111756A1160094A5D1 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4DE2121756A1160094A5D1 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		BD4DE2291756A1160094A5D1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4DE22A1756A1160094A5D1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD4DE22F1756A1160094A5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD4DE2301756A1160094A5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD4DE2321756A1160094A5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Santorini1/Santorini1-Prefix.pch";
+				INFOPLIST_FILE = "Santorini1/Santorini1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD4DE2331756A1160094A5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Santorini1/Santorini1-Prefix.pch";
+				INFOPLIST_FILE = "Santorini1/Santorini1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BD4DE2351756A1160094A5D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Santorini1.app/Santorini1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Santorini1/Santorini1-Prefix.pch";
+				INFOPLIST_FILE = "Santorini1Tests/Santorini1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		BD4DE2361756A1160094A5D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Santorini1.app/Santorini1";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Santorini1/Santorini1-Prefix.pch";
+				INFOPLIST_FILE = "Santorini1Tests/Santorini1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD4DE1EE1756A1150094A5D1 /* Build configuration list for PBXProject "Santorini1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4DE22F1756A1160094A5D1 /* Debug */,
+				BD4DE2301756A1160094A5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4DE2311756A1160094A5D1 /* Build configuration list for PBXNativeTarget "Santorini1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4DE2321756A1160094A5D1 /* Debug */,
+				BD4DE2331756A1160094A5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD4DE2341756A1160094A5D1 /* Build configuration list for PBXNativeTarget "Santorini1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4DE2351756A1160094A5D1 /* Debug */,
+				BD4DE2361756A1160094A5D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD4DE1EB1756A1150094A5D1 /* Project object */;
+}
